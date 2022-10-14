@@ -1,0 +1,26 @@
+.container {
+    font-size: 40px;
+}
+#em {
+     font-size :2em; /* 80px */
+}
+#rem {
+    font-size :2rem; /* 32px */
+}
+#persen {
+    font-size: 50%; /* 20px */
+}
+#vw{
+    font-size:10vw; /* 39px */
+}
+#vh{
+    font-size: 10vh; /* 84.4px */
+}
+
+@media (max-width : 370px) {
+    .container {
+        background-color: aquamarine;
+    }
+    
+}
+
